@@ -23,7 +23,7 @@
 - [PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
 - Pandas
 - Render
-- Kafka
+- Apache Kafka
 
 ## 🛠️ Fonctionnalité
 
@@ -31,15 +31,15 @@
 
 ## 🎓 Ce que j'ai appris
 
-- Pipeline ETL (*Extract-Transform-Load*)
-- Automation de pipeline CI/CD (Jenkins, Git, PostgreSQL *Webhooks/Triggers*)
-- Machine Learning (Python/OCR)
-- Event Streaming (Kafka)
+- Déploiement cloud `Render`
+- Automatisation `PyTorch`
+- Machine Learning `PyTorch / OCR`
+- Pipeline CI/CD `Jenkins & Git`
+- Assurance qualité `Jenkins`
+- Gestion de données `Extract-Transform-Load`
+- Analyse de données `Pandas`
+- Event Streaming `Apache Kafka`
 - Swift
-- PyTorch
-- Pandas
-- Render
-- Jenkins
 - PostgreSQL
 
 ## 💭 Raisonnement des choix techniques
