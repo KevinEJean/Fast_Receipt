@@ -29,16 +29,22 @@
 
 > TODO
 
-## 💭 Raisonnement des choix techniques
-
-> TODO
-
 ## 🎓 Ce que j'ai appris
 
 - Pipeline ETL (*Extract-Transform-Load*)
 - Automation de pipeline CI/CD (Jenkins, Git, PostgreSQL *Webhooks/Triggers*)
 - Machine Learning (Python/OCR)
 - Event Streaming (Kafka)
+- Swift
+- PyTorch
+- Pandas
+- Render
+- Jenkins
+- PostgreSQL
+
+## 💭 Raisonnement des choix techniques
+
+> TODO
 
 ## 🏗️ Architecture
 
