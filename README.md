@@ -25,6 +25,12 @@
 - Render
 - Apache Kafka
 
+## 🌐 Plateformes
+
+- Jenkins
+- Git
+- Permit.io
+
 ## 🛠️ Fonctionnalité
 
 > TODO
