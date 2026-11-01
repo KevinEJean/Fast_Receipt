@@ -32,10 +32,10 @@
 ## Ce que j'ai appris
 
 - Pipeline ETL (*Extract-Transform-Load*)
-- Automation CI/CD (Jenkins, Git, PostgreSQL *Webhooks/Triggers*)
-- *Machine Learning* / OCR (*Optical Character Recognition*)
-- *Event Streaming* (Kafka)
-- Déploiement d'une application HTTPS
+- Automation de pipeline CI/CD (Jenkins, Git, PostgreSQL *Webhooks/Triggers*)
+- Machine Learning (Python/OCR)
+- Event Streaming (Kafka)
+- Développement d'une application mobile
 
 ## Architecture
 
