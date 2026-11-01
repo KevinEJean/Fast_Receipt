@@ -15,11 +15,11 @@
 
 > TODO
 
-## 📋 Langue et services utilisés
+## 📚 Librairies & Frameworks
 
-- Python
-- TypeScript
-- JavaScript
+- PyTorch
+- PyFlask
+- Swift
 - [PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
 - Pandas
 - Render
