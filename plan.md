@@ -11,4 +11,4 @@
 
 - Fonctionnalité de l'application sur ordinateur
 - Conversion de données semi-structurées (`JSON`, `CSV`) en données structurées (Dashboard, Tableau)
-- Génération de fichier `.excel` avec les données structurées
+- Génération de fichier (`Excel`, `JSON`, `CSV`) avec les données structurées
