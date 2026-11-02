@@ -20,6 +20,7 @@
 - PyTorch
 - PyFlask
 - Swift
+- React
 - [PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
 - Pandas
 - Render
