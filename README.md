@@ -7,7 +7,7 @@
 
 > Vidéo démo
 
-## 🧩 Objectif
+## 🎯 Objectif
 
 <p align="justify">Plusieurs contracteurs et travailleurs indépendants accumulent des factures et calculent manuellement leurs rapports financiers. FastReceipt remplace tout ce processus, mais il ne s'arrête pas seulement là. Les bases de données sont persistantes, et un tableau de bord affiche des graphiques importants pour la gestion financière.</p>
 
@@ -26,7 +26,7 @@
 - Render
 - Apache Kafka
 
-## 🌐 Plateformes
+## 🧩 Plateformes
 
 - Jenkins
 - Git
