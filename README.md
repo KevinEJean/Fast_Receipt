@@ -19,7 +19,7 @@
 - Node.js
 - [Expo Go](https://expo.dev/go)
 
-2. Lancer l'application
+1. Lancer l'application
 
 - Dans un terminal :
 
@@ -36,7 +36,7 @@ npx expo start
 
 - PyTorch
 - PyFlask
-- Swift
+- Expo Go
 - React
 - [PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
 - Pandas
@@ -63,7 +63,6 @@ npx expo start
 - Gestion de données `Extract-Transform-Load`
 - Analyse de données `Pandas`
 - Event Streaming `Apache Kafka`
-- Swift
 - PostgreSQL
 
 ## 💭 Raisonnement des choix techniques
