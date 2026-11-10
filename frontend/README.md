@@ -24,7 +24,7 @@ cp .env.example .env
 git clone <GitHub_Repository_URL>
 cd ./Fast_Receipt/frontend
 npm i
-npx expo start -c
+npx expo start
 ```
 
 Scan the QR code with Expo Go. With `EXPO_PUBLIC_USE_MOCK_API=true` the app works
@@ -37,14 +37,19 @@ app/
   _layout.jsx          AuthProvider + Stack.Protected route guards
   (auth)/login.jsx     login + "Continue as guest"
   (auth)/signup.jsx    sign up
-  (app)/index.jsx      home (post-login), shows guest banner
+  (app)/_layout.jsx    Stack: the tabs plus the full-screen scan modal
+  (app)/(tabs)/        bottom tabs: profile, dashboard (default), options
+  (app)/scan.jsx       camera-mode screen opened by the center Add button
+  index.jsx            "/" entry: redirects to /dashboard or /login by auth state
+  +not-found.jsx       custom 404 for unknown URLs
 src/
   api.js               fetch wrapper: base URL, Bearer token, timeout, 401 handling
   config.js            API_URL, mock toggle, timeout
   mockApi.js           in-memory fake backend (delete when the real one is live)
   auth/AuthContext.jsx session state: user, signIn, signUp, continueAsGuest, signOut
   auth/tokenStorage.js expo-secure-store wrapper
-  components/          Field, Button
+  components/          Field, Button, Card, AppTabBar (custom bottom tab bar)
+  theme.js             shared colors
 ```
 
 ## Backend contract this frontend expects
@@ -61,7 +66,7 @@ All bodies are JSON. Errors should return a non-2xx status and `{ "error": "mess
 ## Notes
 
 - `expo-secure-store` works on iOS and Android (including Expo Go), not on web.
-- `Stack.Protected` needs a recent Expo Router (SDK 53+).
+- `Stack.Protected` needs a recent Expo Router (SDK 53+), which `create-expo-app@latest` installs.
 
 **List of available versions**
 
