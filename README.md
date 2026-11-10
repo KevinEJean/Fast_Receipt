@@ -13,7 +13,24 @@
 
 ## ✔️ Instalation
 
-> TODO
+0. Prérequis
+
+- Git
+- Node.js
+- [Expo Go](https://expo.dev/go)
+
+2. Lancer l'application
+
+- Dans un terminal :
+
+```bash
+git clone <GitHub_Repository_URL>
+cd Fast_Receipt
+npm i
+npx expo start
+```
+
+2. Scanner le code QR puis suivre les instructions qui apparaissent à l'écran.
 
 ## 📚 Librairies & Frameworks
 
