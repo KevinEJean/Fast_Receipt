@@ -61,9 +61,9 @@ npx expo start
 - Pipeline CI/CD `Jenkins & Git`
 - Assurance qualité `Jenkins`
 - Gestion de données `Extract-Transform-Load`
-- Analyse de données `Pandas`
+- Analyse de données `Pandas, Numpy`
 - Event Streaming `Apache Kafka`
-- PostgreSQL
+- Bronze, Silver, Gold `PostgreSQL, MongoDB`
 
 ## 💭 Raisonnement des choix techniques
 
